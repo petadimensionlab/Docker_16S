@@ -62,6 +62,7 @@ header = { 'gg':'gg','silva':'silva','rdp':'rdp' }
 reflist = ['gg','silva','rdp']
 ref = reflist[0]```
 
+
 ※ <XXXXX> = Folder name of analyzed data
 ※ <yes or no> = PAIRED is yes , SINGLE is no
 
