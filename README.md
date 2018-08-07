@@ -24,7 +24,7 @@ Save data to be analyzed in <Users_directory>.
 
 ```python3 seq_exec_pfastqdump.py <XXXXX> <yes or no>```
 
-※ <XXXXX> = Folder name of analyzed data　　　　
+※ <XXXXX> = Folder name of analyzed data
 ※ <yes or no> = PAIRED is yes , SINGLE is no
 
 Continue analysis to [petadimensionlab/docker_16s_vsearch](https://hub.docker.com/r/petadimensionlab/docker_16s_vsearch/)
@@ -49,6 +49,8 @@ Save data to be analyzed in <Users_directory>.
 
 ```python3 exec_vsearch_full.py <XXXXX> <yes or no>```
 
+※ <XXXXX> = Folder name of analyzed data
+※ <yes or no> = PAIRED is yes , SINGLE is no
 
 #### Please select a reflist
 
@@ -62,12 +64,3 @@ header = { 'gg':'gg','silva':'silva','rdp':'rdp' }
 reflist = ['gg','silva','rdp']
 ref = reflist[0]
 ```
-
-
-
-
-※ <XXXXX> = Folder name of analyzed data　　　　
-※ <yes or no> = PAIRED is yes , SINGLE is no
-
-
-
