@@ -52,3 +52,15 @@ Save data to be analyzed in <Users_directory>.
 ※ <XXXXX> = Folder name of analyzed data
 ※ <yes or no> = PAIRED is yes , SINGLE is no
 
+Please select a reflist
+
+ exec_vsearch_full.py　
+ (line 63 to 68)
+
+```fastalist = { 'gg':gg97fasta,'silva':silva_fasta,'rdp':rdp_fasta }
+taxlist = { 'gg':gg97tax,'silva':silva_tax,'rdp':rdp_tax }
+header = { 'gg':'gg','silva':'silva','rdp':'rdp' }
+
+reflist = ['gg','silva','rdp']
+ref = reflist[0]```
+
