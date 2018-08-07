@@ -34,7 +34,7 @@ RUN conda config --add channels defaults && \
     conda config --add channels conda-forge && \
     conda config --add channels r && \
     conda config --add channels bioconda && \
-    conda install -y conda-forge::openjdk fastqc=0.11.7 trimmomatic==0.36=5 vsearch==2.7 mothur
+    conda install -y conda-forge::openjdk fastqc=0.11.7 trimmomatic==0.36=5 vsearch==2.7 mothur=1.39.5
 
 RUN pip install biopython 
 
